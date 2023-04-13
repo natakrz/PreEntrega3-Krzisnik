@@ -1,0 +1,183 @@
+// nesting
+
+*{
+    box-sizing: border-box;
+}
+
+htlm{
+    font-size: 62.5%;
+}
+
+// nav
+
+.botonera{
+    background-color: $mainColor;
+    position: sticky;
+    width: $wTotal;
+        ul{
+            li{
+                a{
+                    color: $secondaryColor;
+                    font-size: $textSm;
+                    font-weight: $textLight;
+                    &:link{
+                        color: $secondaryColor;
+                    }
+                    &:visited{
+                        color: $secondaryColor;
+                    }
+                    &:hover{
+                        color: $secondaryColor;
+                        font-weight: $textReg;
+                    }
+                    &:active{
+                        color: $secondaryColor;
+                    }
+                    &[aria-current="page"]{
+                        color: $secondaryColor;
+                    }
+                }
+            }
+        }
+}
+
+// header
+
+header{
+    img{
+        width: $wTotal;
+    }
+} 
+
+#carouselMobile{
+    display: none;
+}
+
+iframe{
+    margin: 20xp, 30px;
+}
+
+form{
+    margin: 30px;
+    div{
+        margin-bottom: 10px;
+    }
+}
+
+// escala de imagenes en pestaña fotografia (para que respeten el contenedor)
+
+main{
+    section{
+        a{
+            img{
+                width: $wTotal;
+                &:hover{
+                    opacity: 50%;
+                }
+            }
+        }
+        iframe{
+            width: $wTotal;
+        }
+    }
+}
+
+// page Maps con flex
+
+.contenedormapa{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.boxmapa{
+    width: 30%;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    overflow-x: unset;
+}
+
+// page Fotografía con grid
+
+.contenedorfoto{
+    align-items: flex-end;
+}
+
+.grid{
+    width: 99%;
+    display: grid;
+}
+
+.grid-template-columns-row{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.boxfoto{
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.linkMore{
+    text-decoration: none;
+    background-color: $mainColor;
+    border: none;
+    color: $secondaryColor;
+    font-size: $textMd;
+    text-align: center;
+}
+
+.boton{
+    text-decoration: none;
+    background-color: $mainColor;
+    border: none;
+    color: $secondaryColor;
+    font-size: $textMd;
+    text-align: center;
+    padding: 10px;
+}
+
+// footer
+
+footer{
+    background-color: $mainColor;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position:relative;
+    width: $wTotal;
+    bottom: 0;
+    a{
+        text-decoration: none;
+    }
+    svg{
+        fill: $secondaryColor;
+        width: 30px;
+        margin-right: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+// error404
+
+.boxerror{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.botonerror{
+    text-decoration: none;
+    background-color: $mainColor;
+    border: none;
+    color: $secondaryColor;
+    font-size: $textMd;
+    text-align: center;
+    padding: 10px;
+}

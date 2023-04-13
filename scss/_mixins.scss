@@ -1,0 +1,13 @@
+// extends
+.calvinoitalic{
+    @extend .calvinoreg;
+    font-style: $textIt;
+}
+
+// mixins
+@mixin textos ($weight, $size, $lineheight){
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $lineheight;
+    font-family: $mainFont;
+}
