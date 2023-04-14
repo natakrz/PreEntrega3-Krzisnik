@@ -116,7 +116,7 @@ form div {
   overflow: hidden;
 }
 
-.contenedorfoto {
+div .grid-template-columns-row {
   align-items: flex-end;
   width: 99%;
   display: grid;
@@ -124,7 +124,7 @@ form div {
   grid-template-rows: auto;
   gap: 10px;
 }
-.contenedorfoto .boxfoto {
+div .grid-template-columns-row section .boxfoto {
   padding: 20px;
   overflow-x: auto;
 }
