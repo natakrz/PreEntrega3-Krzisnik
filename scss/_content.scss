@@ -40,86 +40,59 @@ htlm{
 }
 
 // header
-header{
-    div{
-        img{
-            width: $wTotal;
-        }
-        #carouselMobile{
-            display: none;
-        }
-    }
-    
-} 
-
-// page Maps 
-main{
-    div{
-        .contenedormapa{
-            display: flex;
-            flex-wrap: wrap; 
-            justify-content: space-between;
-            align-items: flex-end;
-        }
-        section{
-            .boxmapa{
-                width: 30%;
-                height: auto;
-                margin: 10px auto;
-                padding: 10px;
-                overflow-x: unset;
-            }
-            p{
-                display: -webkit-box;
-                -webkit-line-clamp: 2;
-                -webkit-box-orient: vertical; 
-                overflow: hidden;
-            }
-            iframe{
-                margin: 20xp, 30px;
-            }
-        }
-    }
-    div{
-        a{
-            .linkMore{
-                text-decoration: none;
-                background-color: $mainColor;
-                border: none;
-                color: $secondaryColor;
-                font-size: $textMd;
-                text-align: center;
-            }
-        }
-    }
+header img{
+    width: 100%;
 }
 
+#carouselMobile{
+    display: none;
+}
+
+// page Maps 
+.contenedormapa{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.boxmapa{
+    width: 30%;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    overflow-x: unset;
+}
+
+.linkMore{
+    text-decoration: none;
+    background-color: $mainColor;
+    border: none;
+    color: $secondaryColor;
+    font-size: $textMd;
+    text-align: center;
+}
+
+
 // page Fotografía 
-main{
-    div{
-        .contenedorfoto{
-            align-items: flex-end;
-            width: 99%;
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            grid-template-rows: auto;
-            gap: 10px;
-        }
-        section{
-            .boxfoto{
-                padding: 20px;
-                overflow-x: auto;
-            }
-            a{
-                img{
-                    width: $wTotal;
-                    &:hover{
-                        opacity: 50%;
-                    }
-                }
-            }
-        }
-    }
+.contenedorfoto{
+    align-items: flex-end;
+}
+
+.grid{
+    width: 99%;
+    display: grid;
+}
+
+    .grid-template-columns-row{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+}
+
+.boxfoto{
+    padding: 20px;
+    overflow-x: auto;
 }
 
 // page Contacto
@@ -128,14 +101,6 @@ form{
     div{
         margin-bottom: 10px;
     }
-    input{
-        text-decoration: none;
-        background-color: $mainColor;
-        border: none;
-        color: $secondaryColor;
-        font-size: $textMd;
-        text-align: center;
-        padding: 10px;
         .boton{
             text-decoration: none;
             background-color: $mainColor;
@@ -145,7 +110,6 @@ form{
             text-align: center;
             padding: 10px;
         }
-    }
 }
 
 // footer
