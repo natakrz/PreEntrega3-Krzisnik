@@ -64,24 +64,6 @@ form{
     }
 }
 
-// escala de imagenes en pestaña fotografia (para que respeten el contenedor)
-
-main{
-    section{
-        a{
-            img{
-                width: $wTotal;
-                &:hover{
-                    opacity: 50%;
-                }
-            }
-        }
-        iframe{
-            width: $wTotal;
-        }
-    }
-}
-
 // page Maps con flex
 
 .contenedormapa{
@@ -99,26 +81,46 @@ main{
     overflow-x: unset;
 }
 
+.boxmapa{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
+}
+
 // page Fotografía con grid
 
 .contenedorfoto{
     align-items: flex-end;
-}
-
-.grid{
     width: 99%;
     display: grid;
-}
-
-.grid-template-columns-row{
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: auto;
     gap: 10px;
+    .boxfoto{
+        padding: 20px;
+        overflow-x: auto;
+    }
 }
 
-.boxfoto{
-    padding: 20px;
-    overflow-x: auto;
+// escala de imagenes en pestaña fotografia (para que respeten el contenedor)
+
+main{
+    div{
+        section{
+            a{
+                img{
+                    width: $wTotal;
+                    &:hover{
+                        opacity: 50%;
+                    }
+                }
+            }
+            iframe{
+                width: $wTotal;
+            }
+        }
+    }
 }
 
 .linkMore{

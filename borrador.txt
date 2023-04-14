@@ -1,0 +1,55 @@
+No funcionaba esta opción para grid fotos:
+// page Fotografía con grid
+
+.contenedorfoto{
+    align-items: flex-end;
+}
+
+.grid{
+    width: 99%;
+    display: grid;
+}
+
+.grid-template-columns-row{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.boxfoto{
+    padding: 20px;
+    overflow-x: auto;
+}
+
+/* prueba de escala de imagenes en pestaña fotografia (para que respeten el contenedor) */
+
+main section a img{
+    width: 100%;
+}
+
+main section a img:hover{
+    opacity: 50%;
+}
+
+main section iframe{
+    width: 100%;
+}
+
+
+// escala de imagenes en pestaña fotografia (para que respeten el contenedor)
+
+main{
+    section{
+        a{
+            img{
+                width: $wTotal;
+                &:hover{
+                    opacity: 50%;
+                }
+            }
+        }
+        iframe{
+            width: $wTotal;
+        }
+    }
+}
