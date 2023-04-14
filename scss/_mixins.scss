@@ -2,7 +2,7 @@
 .calvinoitalic{
     @extend .calvinoreg;
     font-style: $textIt;
-}
+    }
 
 // mixins
 @mixin textos ($weight, $size, $lineheight){

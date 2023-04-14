@@ -1,5 +1,4 @@
 // nesting
-
 *{
     box-sizing: border-box;
 }
@@ -9,7 +8,6 @@ htlm{
 }
 
 // nav
-
 .botonera{
     background-color: $mainColor;
     position: sticky;
@@ -42,54 +40,61 @@ htlm{
 }
 
 // header
-
 header{
-    img{
-        width: $wTotal;
+    div{
+        img{
+            width: $wTotal;
+        }
+        #carouselMobile{
+            display: none;
+        }
     }
+    
 } 
 
-#carouselMobile{
-    display: none;
-}
-
-iframe{
-    margin: 20xp, 30px;
-}
-
-form{
-    margin: 30px;
+// page Maps 
+main{
     div{
-        margin-bottom: 10px;
+        .contenedormapa{
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        section{
+            .boxmapa{
+                width: 30%;
+                height: auto;
+                margin: 10px auto;
+                padding: 10px;
+                overflow-x: unset;
+            }
+            p{
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical; 
+                overflow: hidden;
+            }
+            iframe{
+                margin: 20xp, 30px;
+            }
+        }
+    }
+    div{
+        a{
+            .linkMore{
+                text-decoration: none;
+                background-color: $mainColor;
+                border: none;
+                color: $secondaryColor;
+                font-size: $textMd;
+                text-align: center;
+            }
+        }
     }
 }
 
-// page Maps con flex
-
-.contenedormapa{
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
-.boxmapa{
-    width: 30%;
-    height: auto;
-    margin: 10px auto;
-    padding: 10px;
-    overflow-x: unset;
-}
-
-.boxmapa{
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical; 
-    overflow: hidden;
-}
-
-// page Fotografía con grid
-
+// page Fotografía 
 .contenedorfoto{
     align-items: flex-end;
     width: 99%;
@@ -104,7 +109,6 @@ form{
 }
 
 // escala de imagenes en pestaña fotografia (para que respeten el contenedor)
-
 main{
     div{
         section{
@@ -123,27 +127,33 @@ main{
     }
 }
 
-.linkMore{
-    text-decoration: none;
-    background-color: $mainColor;
-    border: none;
-    color: $secondaryColor;
-    font-size: $textMd;
-    text-align: center;
-}
-
-.boton{
-    text-decoration: none;
-    background-color: $mainColor;
-    border: none;
-    color: $secondaryColor;
-    font-size: $textMd;
-    text-align: center;
-    padding: 10px;
+// page Contacto
+form{
+    margin: 30px;
+    div{
+        margin-bottom: 10px;
+    }
+    input{
+        text-decoration: none;
+        background-color: $mainColor;
+        border: none;
+        color: $secondaryColor;
+        font-size: $textMd;
+        text-align: center;
+        padding: 10px;
+        .boton{
+            text-decoration: none;
+            background-color: $mainColor;
+            border: none;
+            color: $secondaryColor;
+            font-size: $textMd;
+            text-align: center;
+            padding: 10px;
+        }
+    }
 }
 
 // footer
-
 footer{
     background-color: $mainColor;
     display: flex;
@@ -165,21 +175,25 @@ footer{
 }
 
 // error404
-
-.boxerror{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
-}
-
-.botonerror{
-    text-decoration: none;
-    background-color: $mainColor;
-    border: none;
-    color: $secondaryColor;
-    font-size: $textMd;
-    text-align: center;
-    padding: 10px;
+main{
+    section{
+        .boxerror{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            padding: 20px;
+        }
+    }
+    a{
+        .botonerror{
+            text-decoration: none;
+            background-color: $mainColor;
+            border: none;
+            color: $secondaryColor;
+            font-size: $textMd;
+            text-align: center;
+            padding: 10px;
+        }
+    }
 }
