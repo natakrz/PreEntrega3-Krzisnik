@@ -95,23 +95,21 @@ main{
 }
 
 // page Fotografía 
-.contenedorfoto{
-    align-items: flex-end;
-    width: 99%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: auto;
-    gap: 10px;
-    .boxfoto{
-        padding: 20px;
-        overflow-x: auto;
-    }
-}
-
-// escala de imagenes en pestaña fotografia (para que respeten el contenedor)
 main{
     div{
+        .contenedorfoto{
+            align-items: flex-end;
+            width: 99%;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: auto;
+            gap: 10px;
+        }
         section{
+            .boxfoto{
+                padding: 20px;
+                overflow-x: auto;
+            }
             a{
                 img{
                     width: $wTotal;
@@ -119,9 +117,6 @@ main{
                         opacity: 50%;
                     }
                 }
-            }
-            iframe{
-                width: $wTotal;
             }
         }
     }
