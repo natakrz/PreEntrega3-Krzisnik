@@ -51,8 +51,7 @@ p {
 }
 
 .petri {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: 100px;
 }
 
 * {
@@ -195,6 +194,9 @@ footer svg {
   width: 60%;
   margin: 20px;
   padding: 20px;
+}
+.boxerror img {
+  width: 100%;
 }
 
 @media (max-width: 768px) {
