@@ -1,7 +1,7 @@
 // 1er breakpoint para tablet
 
 @media (max-width:768px){
-    .nav-item{
+    .nav-link{
         color: $mainColor;
     }
     .contenedorfoto{
@@ -28,7 +28,7 @@
 // 2do breakpoint para celu
 
 @media (max-width:480px){
-    .nav-item{
+    .nav-link{
         color: $mainColor;
     }
     .contenedorfoto{
