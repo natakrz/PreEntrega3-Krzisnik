@@ -61,15 +61,18 @@ header img{
     height: auto;
     margin: 10px auto;
     padding: 10px;
-    overflow-x: unset;
+    overflow-x: unset;   
+}
+
+.descripcion{
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-    overflow: hidden;
 }
 
 iframe{
     margin: 20xp, 30px;
+    padding: 10px;
 }
 
 // page Fotografía 

@@ -2,6 +2,7 @@
 .calvinoitalic{
     @extend .calvinoreg;
     font-style: $textIt;
+    line-height: 2rem;
 }
 
 .linkMore{
