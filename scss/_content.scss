@@ -41,7 +41,7 @@ htlm{
 
 // header
 header img{
-    width: 100%;
+    width: $wTotal;
 }
 
 #carouselMobile{
@@ -151,17 +151,6 @@ main{
             align-items: center;
             margin: 20px;
             padding: 20px;
-        }
-    }
-    a{
-        .botonerror{
-            text-decoration: none;
-            background-color: $mainColor;
-            border: none;
-            color: $secondaryColor;
-            font-size: $textMd;
-            text-align: center;
-            padding: 10px;
         }
     }
 }

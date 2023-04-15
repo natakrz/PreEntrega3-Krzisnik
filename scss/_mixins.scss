@@ -10,6 +10,11 @@
     border-radius: 0.2;
 }
 
+.botonerror{
+    @extend .linkMore;
+    box-shadow: 5px 6px 9px 4px rgba(176,174,174,0.79);
+}
+
 // mixins
 @mixin textos ($weight, $size, $lineheight){
     font-weight: $weight;
