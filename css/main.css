@@ -8,6 +8,10 @@
   border-radius: 0.2;
 }
 
+.botonerror {
+  box-shadow: 5px 6px 9px 4px rgba(176, 174, 174, 0.79);
+}
+
 h1 {
   font-weight: 800;
   font-size: 2.5rem;
@@ -109,14 +113,14 @@ iframe {
   padding: 10px;
 }
 
-.linkMore, .boton {
+.linkMore, .boton, .botonerror {
   text-decoration: none;
   background-color: rgb(205, 185, 126);
   border: none;
   color: white;
   font-size: 1.5rem;
   text-align: center;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
 }
 
@@ -179,15 +183,19 @@ footer svg {
   margin-bottom: 10px;
 }
 
-main section .boxerror {
+.boxerror {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 60%;
   margin: 20px;
   padding: 20px;
 }
 
 @media (max-width: 768px) {
+  .nav-link {
+    color: rgb(205, 185, 126);
+  }
   .contenedorfoto {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -209,6 +217,9 @@ main section .boxerror {
   }
 }
 @media (max-width: 480px) {
+  .nav-link {
+    color: rgb(205, 185, 126);
+  }
   .contenedorfoto {
     grid-template-columns: repeat(1, 1fr);
   }

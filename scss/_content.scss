@@ -76,7 +76,7 @@ iframe{
     color: $secondaryColor;
     font-size: $textMd;
     text-align: center;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
 }
 
@@ -147,6 +147,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 60%;
     margin: 20px;
     padding: 20px;
 }
