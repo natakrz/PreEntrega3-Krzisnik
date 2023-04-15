@@ -143,14 +143,10 @@ footer{
 }
 
 // error404
-main{
-    section{
-        .boxerror{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 20px;
-            padding: 20px;
-        }
-    }
+.boxerror{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
 }
