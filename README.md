@@ -27,6 +27,7 @@ Con respecto a la Optimización SEO:
 - Links llevan a álbumes de Behance, salvo Mar del Plata y Mendoza. Llevan a error404 porque en realidad son de relleno, no tengo fotos de esos lugares.
 - A los links externos de Behance les puse "no follow".
 - Página de error404.
+- Las imágenes son propias, por lo que están optimizadas y llevadas a 72dpi con Psd.
 
 Otros temas:
 Usé Animaciones en la nav y el footer, no sé si son lindos pero para probar.
