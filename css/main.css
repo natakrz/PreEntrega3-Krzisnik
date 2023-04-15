@@ -50,6 +50,11 @@ p {
   margin-right: 100px;
 }
 
+.petri {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
 * {
   box-sizing: border-box;
 }
