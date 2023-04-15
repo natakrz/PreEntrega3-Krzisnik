@@ -5,7 +5,7 @@
 }
 
 .boton {
-  border-radius: 0.1;
+  border-radius: 0.2;
 }
 
 h1 {
@@ -55,7 +55,7 @@ htlm {
 }
 
 .botonera {
-  background-color: rgb(205, 185, 126);
+  background: linear-gradient(to right, white, rgb(205, 185, 126));
   position: sticky;
   width: 100%;
 }
@@ -116,6 +116,7 @@ iframe {
   color: white;
   font-size: 1.5rem;
   text-align: center;
+  margin: 10px;
   padding: 10px;
 }
 

@@ -9,7 +9,7 @@ htlm{
 
 // nav
 .botonera{
-    background-color: $mainColor;
+    background: linear-gradient(to right, $secondaryColor, $mainColor);
     position: sticky;
     width: $wTotal;
         ul{
@@ -76,6 +76,7 @@ iframe{
     color: $secondaryColor;
     font-size: $textMd;
     text-align: center;
+    margin: 10px;
     padding: 10px;
 }
 
