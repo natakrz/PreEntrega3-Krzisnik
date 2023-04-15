@@ -118,7 +118,7 @@ form{
 
 // footer
 footer{
-    background-color: $mainColor;
+    background: linear-gradient(to right, $secondaryColor, $mainColor);
     display: flex;
     justify-content: end;
     align-items: center;
