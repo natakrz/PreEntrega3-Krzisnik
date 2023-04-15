@@ -197,6 +197,7 @@ footer svg {
 }
 .boxerror img {
   width: 100%;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {

@@ -29,6 +29,7 @@ Con respecto a la Optimización SEO:
 - Página de error404.
 
 Otros temas:
+Usé Animaciones en la nav y el footer, no sé si son lindos pero para probar.
 Parches de @media no quise hacer, esta todo en _breakpoints, me parece más fácil de encontrar.
 Usé extends, mixins y nesting.
 Algunas cosas las tuve que "desanidar" porque se me rompían al exagerar el anidado. Algunas cosas las dejé en borrador.txt por si querés revisar.
