@@ -62,17 +62,15 @@ header img{
     margin: 10px auto;
     padding: 10px;
     overflow-x: unset;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
-.linkMore{
-    text-decoration: none;
-    background-color: $mainColor;
-    border: none;
-    color: $secondaryColor;
-    font-size: $textMd;
-    text-align: center;
+iframe{
+    margin: 20xp, 30px;
 }
-
 
 // page Fotografía 
 .contenedorfoto{
@@ -90,6 +88,18 @@ header img{
         gap: 10px;
 }
 
+main section a img{
+    width: $wTotal;
+}
+
+main section a img:hover{
+    opacity: 50%;
+}
+
+main section iframe{
+    width: $wTotal;
+}
+
 .boxfoto{
     padding: 20px;
     overflow-x: auto;
@@ -101,15 +111,6 @@ form{
     div{
         margin-bottom: 10px;
     }
-        .boton{
-            text-decoration: none;
-            background-color: $mainColor;
-            border: none;
-            color: $secondaryColor;
-            font-size: $textMd;
-            text-align: center;
-            padding: 10px;
-        }
 }
 
 // footer

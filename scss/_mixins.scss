@@ -2,7 +2,17 @@
 .calvinoitalic{
     @extend .calvinoreg;
     font-style: $textIt;
-    }
+}
+
+.linkMore{
+    @extend .botonerror;
+    border-radius: 0.1;
+}
+
+.boton{
+    @extend .botonerror;
+    border-radius: 0.1;
+}
 
 // mixins
 @mixin textos ($weight, $size, $lineheight){
@@ -11,3 +21,4 @@
     line-height: $lineheight;
     font-family: $mainFont;
 }
+
