@@ -75,6 +75,16 @@ iframe{
     padding: 10px;
 }
 
+.linkMore{
+    text-decoration: none;
+    background-color: $mainColor;
+    border: none;
+    color: $secondaryColor;
+    font-size: $textMd;
+    text-align: center;
+    padding: 10px;
+}
+
 // page Fotografía 
 .contenedorfoto{
     align-items: flex-end;

@@ -5,13 +5,8 @@
     line-height: 2rem;
 }
 
-.linkMore{
-    @extend .botonerror;
-    border-radius: 0.1;
-}
-
 .boton{
-    @extend .botonerror;
+    @extend .linkMore;
     border-radius: 0.1;
 }
 
