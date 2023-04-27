@@ -226,7 +226,7 @@ footer svg {
 }
 @media (max-width: 480px) {
   .nav-link {
-    color: rgb(205, 185, 126);
+    color: rgb(205, 185, 126) !important;
   }
   .contenedorfoto {
     grid-template-columns: repeat(1, 1fr);
