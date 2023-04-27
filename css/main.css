@@ -196,6 +196,7 @@ footer svg {
   padding: 20px;
 }
 .boxerror img {
+  display: block;
   width: 100%;
   justify-content: center;
 }
