@@ -124,7 +124,7 @@ iframe {
   color: white;
   font-size: 1.5rem;
   text-align: center;
-  margin: 20px;
+  margin: 10px, 20px;
   padding: 10px;
 }
 
@@ -191,14 +191,12 @@ footer svg {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 100%;
   margin: 20px;
   padding: 20px;
 }
 .boxerror img {
-  display: block;
-  width: 100%;
-  justify-content: center;
+  width: 60%;
 }
 
 @media (max-width: 768px) {
