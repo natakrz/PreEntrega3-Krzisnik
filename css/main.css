@@ -218,14 +218,25 @@ footer svg {
   #carouselMobile {
     display: none;
   }
-  .boxerror {
-    justify-content: center;
-    width: 90%;
-  }
 }
 @media (max-width: 480px) {
-  .nav-link {
-    color: rgb(205, 185, 126) !important;
+  .botonera ul li a {
+    color: rgb(205, 185, 126);
+  }
+  .botonera ul li a:link {
+    color: rgb(205, 185, 126);
+  }
+  .botonera ul li a:visited {
+    color: rgb(205, 185, 126);
+  }
+  .botonera ul li a:hover {
+    color: rgb(205, 185, 126);
+  }
+  .botonera ul li a:active {
+    color: rgb(205, 185, 126);
+  }
+  .botonera ul li a[aria-current=page] {
+    color: rgb(205, 185, 126);
   }
   .contenedorfoto {
     grid-template-columns: repeat(1, 1fr);
@@ -250,10 +261,6 @@ footer svg {
   }
   .pocultar {
     display: none;
-  }
-  .boxerror {
-    justify-content: center;
-    width: 80%;
   }
 }
 
