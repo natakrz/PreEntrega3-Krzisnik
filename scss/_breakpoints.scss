@@ -1,8 +1,29 @@
 // 1er breakpoint para tablet
 
 @media (max-width:768px){
-    .nav-link{
-        color: $mainColor;
+    .botonera{
+        ul{
+            li{
+                a{
+                    color: $mainColor;
+                    &:link{
+                        color: $mainColor;
+                    }
+                    &:visited{
+                        color: $mainColor;
+                    }
+                    &:hover{
+                        color: $mainColor;
+                    }
+                    &:active{
+                        color: $mainColor;
+                    }
+                    &[aria-current="page"]{
+                        color: $mainColor;
+                    }
+                }
+            }
+        }
     }
     .contenedorfoto{
         grid-template-columns: repeat(2,1fr)
